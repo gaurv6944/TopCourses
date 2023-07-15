@@ -1,0 +1,30 @@
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 11.2px #474bff  double;
+   /* background: conic-gradient(#0000 10%,#474bff); */
+   border-left-style:solid;
+   /* -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0); */
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+ 
